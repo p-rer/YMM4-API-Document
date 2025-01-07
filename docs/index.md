@@ -2,6 +2,6 @@
 
 YMM4 API ドキュメント
 
-[はじめに](introduction)
+[はじめに](introduction.md)
 
-[リファレンス](reference)
+[リファレンス](reference/index.md)

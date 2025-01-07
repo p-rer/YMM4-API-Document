@@ -2,7 +2,7 @@
 
 ## 定義
 
-名前空間: [YukkuriMovieMaker.Plugin.Effects](..)
+名前空間: [YukkuriMovieMaker.Plugin.Effects](../index.md)
 
 アセンブリ: YukkuriMovieMaker.Plugin.dll
 
@@ -20,11 +20,11 @@ public class VideoEffectCategories
 
 | 名前                       | 説明          |
 | ------------------------ | ------------- |
-| [Animation](field/Animation)   | アニメーションカテゴリのキーの名前 |
-| [Camera](field/Camera) | カメラカテゴリのキーの名前 |
-| [Filtering](field/Filtering)   | 加工カテゴリのキーの名前      |
-| [Composition](field/Composition) | 合成カテゴリのキーの名前      |
-| [Decoration](field/Decoration)  | 装飾カテゴリのキーの名前      |
-| [Transition](field/Transition)  | 登場退場カテゴリのキーの名前    |
-| [Layout](field/Layout)      | 配置カテゴリのキーの名前      |
-| [Drawing](field/Drawing)     | 描画カテゴリのキーの名前      |
+| [Animation](field/Animation.md)   | アニメーションカテゴリのキーの名前 |
+| [Camera](field/Camera.md) | カメラカテゴリのキーの名前 |
+| [Filtering](field/Filtering.md)   | 加工カテゴリのキーの名前      |
+| [Composition](field/Composition.md) | 合成カテゴリのキーの名前      |
+| [Decoration](field/Decoration.md)  | 装飾カテゴリのキーの名前      |
+| [Transition](field/Transition.md)  | 登場退場カテゴリのキーの名前    |
+| [Layout](field/Layout.md)      | 配置カテゴリのキーの名前      |
+| [Drawing](field/Drawing.md)     | 描画カテゴリのキーの名前      |
