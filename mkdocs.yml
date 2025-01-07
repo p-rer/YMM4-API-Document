@@ -12,9 +12,11 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - search.suggest
+    - navigation.path
     - navigation.top
     - navigation.indexes
-    - header.autohide
+    - content.code.copy
 extra:
   consent:
     title: Cookie consent
@@ -29,8 +31,8 @@ extra:
       - reject
   generator: false
 plugins:
-  search:
-    lang: 'ja'
+  - search
+  - git-revision-date
 markdown_extensions:
   - admonition
   - footnotes

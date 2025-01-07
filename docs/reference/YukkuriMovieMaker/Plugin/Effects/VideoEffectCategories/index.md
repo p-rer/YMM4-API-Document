@@ -19,9 +19,9 @@ public class VideoEffectCategories
 ## フィールド
 
 | 名前                       | 説明          |
-| ------------------------ | ------------- | ----------------- |
+| ------------------------ | ------------- |
 | [Animation](field/Animation)   | アニメーションカテゴリのキーの名前 |
-| [Camera](field/Camera) | カメラカテゴリのキーの名前 |                   |
+| [Camera](field/Camera) | カメラカテゴリのキーの名前 |
 | [Filtering](field/Filtering)   | 加工カテゴリのキーの名前      |
 | [Composition](field/Composition) | 合成カテゴリのキーの名前      |
 | [Decoration](field/Decoration)  | 装飾カテゴリのキーの名前      |

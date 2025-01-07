@@ -36,8 +36,8 @@ public abstract class VideoEffectBase : YukkuriMovieMaker.Commons.Animatable, Yu
 
 | 名前                                                                                                                                                               | 説明                                  |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| [Set\<T>(ref T, T, string, params string[])](./method/Set)                          | 参照渡しされたストレージに値を設定し、変更を通知します。        |
-| [Set\<T>(Expression<Func\<T>>, T, string, params string[])](./method/Set)            | プロパティセレクタを使用してプロパティに値を設定し、変更を通知します。 |
+| [Set<T\>(ref T, T, string, params string[])](./method/Set)                          | 参照渡しされたストレージに値を設定し、変更を通知します。        |
+| [Set<T\>(Expression<Func<T\>\>, T, string, params string[])](./method/Set)            | プロパティセレクタを使用してプロパティに値を設定し、変更を通知します。 |
 | [CreateExoVideoFilters(int, ExoOutputDescription)](./method/CreateExoVideoFilters) | Exoとして出力する際に使用する文字列を生成します。          |
 | [CreateVideoEffect(IGraphicsDevicesAndContext)](./method/CreateVideoEffect)        | プロセッサーのインスタンスを生成します。                |
 
