@@ -31,8 +31,6 @@ extra:
 plugins:
   search:
     lang: 'ja'
-  ezlinks:
-      wikilinks: true
 markdown_extensions:
   - admonition
   - footnotes

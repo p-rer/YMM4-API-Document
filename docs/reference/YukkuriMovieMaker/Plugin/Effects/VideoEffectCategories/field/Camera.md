@@ -2,8 +2,11 @@
 
 ## 定義
 
-名前空間: [[reference/YukkuriMovieMaker/Plugin/Effects/index|YukkuriMovieMaker.Plugin.Effects]]
+名前空間: [YukkuriMovieMaker.Plugin.Effects](../..)
+
 アセンブリ: YukkuriMovieMaker.Plugin.dll
+
+
 
 カメラカテゴリのキーの名前を返します。
 

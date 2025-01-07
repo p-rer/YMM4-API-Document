@@ -1,14 +1,23 @@
 # YukkuriMovieMaker.Plugin.Effects 名前空間
 
 エフェクトの定義に必要なクラス、インターフェースが含まれています。
+
 ## クラス
 
-[[docs/reference/YukkuriMovieMaker/Plugin/Effects/AudioEffectAttribute/index|AudioEffectAttribute]]
-[[docs/reference/YukkuriMovieMaker/Plugin/Effects/AudioEffectBase/index|AudioEffectBase]]
-[[docs/reference/YukkuriMovieMaker/Plugin/Effects/AudioEffectCategories/index|AudioEffectCategories]]
-[[docs/reference/YukkuriMovieMaker/Plugin/Effects/VideoEffectAttribute/index|VideoEffectAttribute]]
-[[docs/reference/YukkuriMovieMaker/Plugin/Effects/VideoEffectBase/index|VideoEffectBase]]
-[[docs/reference/YukkuriMovieMaker/Plugin/Effects/VideoEffectCategories/index|VideoEffectCategories]]
+[AudioEffectAttribute](./AudioEffectAttribute)
+
+[AudioEffectBase](./AudioEffectBase)
+
+[AudioEffectCategories](./AudioEffectCategories)
+
+[VideoEffectAttribute](./VideoEffectAttribute)
+
+[VideoEffectBase](./VideoEffectBase)
+
+[VideoEffectCategories](./VideoEffectCategories)
+
 ## インターフェース
-[[docs/reference/YukkuriMovieMaker/Plugin/Effects/IAudioEffect/index|IAudioEffect]]
-[[docs/reference/YukkuriMovieMaker/Plugin/Effects/IVideoEffect/index|IVideoEffect]]
+
+[IAudioEffect](./IAudioEffect)
+
+[IVideoEffect](./IVideoEffect)
