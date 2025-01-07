@@ -6,7 +6,7 @@
 
 アセンブリ: YukkuriMovieMaker.Plugin.dll
 
-
+<br/>
 
 装飾カテゴリのキーの名前を返します。
 

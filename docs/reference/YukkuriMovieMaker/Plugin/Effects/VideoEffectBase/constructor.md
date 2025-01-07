@@ -6,7 +6,7 @@
 
 アセンブリ: YukkuriMovieMaker.Plugin.dll
 
-
+<br/>
 
 [VideoEffectBase](index.md) クラスの新しいインスタンスを初期化します。
 

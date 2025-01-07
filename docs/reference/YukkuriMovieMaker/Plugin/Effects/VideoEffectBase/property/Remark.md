@@ -6,7 +6,7 @@
 
 アセンブリ: YukkuriMovieMaker.Plugin.dll
 
-
+<br/>
 
 エフェクトについて備考を取得または設定します。
 

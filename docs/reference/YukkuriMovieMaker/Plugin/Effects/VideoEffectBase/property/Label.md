@@ -6,7 +6,7 @@
 
 アセンブリ: YukkuriMovieMaker.Plugin.dll
 
-
+<br/>
 
 エフェクトの名前を設定します。読み取り専用です。
 
@@ -19,5 +19,7 @@ public abstract string Label { get; }
 [String](https://learn.microsoft.com/ja-jp/dotnet/api/system.string)
 
 エフェクトの名前。
+
+<br/>
 
 属性 JsonIgnore

@@ -6,7 +6,7 @@
 
 アセンブリ: YukkuriMovieMaker.Plugin.dll
 
-
+<br/>
 
 配置カテゴリのキーの名前を返します。
 

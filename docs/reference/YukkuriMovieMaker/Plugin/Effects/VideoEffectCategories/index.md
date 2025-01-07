@@ -6,7 +6,7 @@
 
 アセンブリ: YukkuriMovieMaker.Plugin.dll
 
-
+<br/>
 
 映像エフェクトのカテゴリのキーの名前を返すフィールドを持ちます。
 
