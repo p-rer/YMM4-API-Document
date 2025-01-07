@@ -1,0 +1,2 @@
+# VideoEffectAttribute クラス
+
