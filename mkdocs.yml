@@ -27,7 +27,6 @@ extra:
       make our documentation better.
     actions:
       - accept
-      - manage
       - reject
   generator: false
 plugins:
@@ -38,7 +37,7 @@ markdown_extensions:
   - footnotes
   - pymdownx.highlight:
       use_pygments: true
-      noclasses: true
+      noclasses: false
       pygments_style: monokai
-      linenums: true
+      linenums: false
   - pymdownx.superfences
