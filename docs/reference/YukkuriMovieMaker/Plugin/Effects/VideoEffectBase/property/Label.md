@@ -1,4 +1,4 @@
-# Label プロパティ
+# Label プロパティー
 
 ## 定義
 
@@ -15,7 +15,7 @@
 public abstract string Label { get; }
 ```
 
-#### プロパティ値
+#### プロパティー値
 [String](https://learn.microsoft.com/ja-jp/dotnet/api/system.string)
 
 エフェクトの名前。

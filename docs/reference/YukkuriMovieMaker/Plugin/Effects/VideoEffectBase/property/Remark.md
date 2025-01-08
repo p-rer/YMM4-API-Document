@@ -1,4 +1,4 @@
-# Remark プロパティ
+# Remark プロパティー
 
 ## 定義
 
@@ -14,7 +14,7 @@
 public string Remark { get; set; }
 ```
 
-#### プロパティ値
+#### プロパティー値
 [String](https://learn.microsoft.com/ja-jp/dotnet/api/system.string)
 
 備考。

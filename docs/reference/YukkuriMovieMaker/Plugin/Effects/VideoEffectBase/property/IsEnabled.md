@@ -1,4 +1,4 @@
-# IsEnabled プロパティ
+# IsEnabled プロパティー
 
 ## 定義
 
@@ -14,7 +14,7 @@
 public bool IsEnabled { get; set; }
 ```
 
-#### プロパティ値
+#### プロパティー値
 [Boolean](https://learn.microsoft.com/ja-jp/dotnet/api/system.boolean)
 
 エフェクトの有効または無効の状態。

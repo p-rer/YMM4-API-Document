@@ -28,7 +28,7 @@ exo出力に必要な各種情報。
 
 #### 戻り値
 
-[IEnumerable<string/>](https://learn.microsoft.com/ja-jp/dotnet/api/system.collections.generic.ienumerable-1)
+[IEnumerable<string\>](https://learn.microsoft.com/ja-jp/dotnet/api/system.collections.generic.ienumerable-1)
 
 ExoFilterのコレクション。
 

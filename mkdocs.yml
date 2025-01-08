@@ -1,18 +1,34 @@
 site_name: YMM4 API Documentation
 theme:
   name: material
+  language: ja
+  icon:
+    logo: material/file-document-multiple
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: light blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to system preference
   features:
     - search.suggest
+    - toc.follow
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.footer
     - navigation.path
     - navigation.top
     - navigation.indexes
@@ -30,8 +46,13 @@ extra:
       - reject
   generator: false
 plugins:
+  - privacy
+  - open-in-new-tab
   - search
-  - git-revision-date
+  - git-revision-date-localized:      
+      timezone: Asia/Tokyo
+      locale: ja
+  - offline
 markdown_extensions:
   - admonition
   - footnotes
@@ -41,3 +62,5 @@ markdown_extensions:
       pygments_style: monokai
       linenums: false
   - pymdownx.superfences
+  - toc:
+      permalink: true
