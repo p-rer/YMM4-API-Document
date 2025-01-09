@@ -8,7 +8,7 @@
 
 <br/>
 
-配置カテゴリのキーの名前を返します。
+配置カテゴリーのキーの名前を返します。
 
 ```csharp
 public const string Layout = "YMM4Key_EffectCategoryLayoutName";

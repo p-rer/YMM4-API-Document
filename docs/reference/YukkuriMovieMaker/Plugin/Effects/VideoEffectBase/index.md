@@ -8,7 +8,7 @@
 
 <br/>
 
-映像エフェクトの名前、パラメータの保持、変更の通知、プロセッサの提供などを行うクラスはこれを継承します。
+映像エフェクトの名前、パラメータの保持、変更の通知、プロセッサーの提供などを行うクラスはこれを継承します。
 
 ```csharp
 public abstract class VideoEffectBase : YukkuriMovieMaker.Commons.Animatable, YukkuriMovieMaker.Plugin.Effects.IVideoEffect, System.ComponentModel.INotifyPropertyChanged, System.ComponentModel.INotifyDataErrorInfo, YukkuriMovieMaker.UndoRedo.IUndoRedoable, YukkuriMovieMaker.ItemEditor.IEditable, YukkuriMovieMaker.Commons.IAnimatable, YukkuriMovieMaker.Project.IFileItem, YukkuriMovieMaker.Project.IResourceItem
@@ -34,12 +34,12 @@ public abstract class VideoEffectBase : YukkuriMovieMaker.Commons.Animatable, Yu
 
 ## メソッド
 
-| 名前                                                                                    | 説明                                   |
-| ------------------------------------------------------------------------------------- | ------------------------------------ |
-| [Set<T\>(ref T, T, string, params string[])](./method/Set.md)                         | 参照渡しされたストレージに値を設定し、変更を通知します。         |
-| [Set<T\>(Expression<Func<T\>\>, T, string, params string[])](./method/Set.md)         | プロパティセレクタを使用してプロパティーに値を設定し、変更を通知します。 |
-| [CreateExoVideoFilters(int, ExoOutputDescription)](./method/CreateExoVideoFilters.md) | Exoとして出力する際に使用する文字列を生成します。           |
-| [CreateVideoEffect(IGraphicsDevicesAndContext)](./method/CreateVideoEffect.md)        | プロセッサーのインスタンスを生成します。                 |
+| 名前                                                                                    | 説明                                    |
+| ------------------------------------------------------------------------------------- | ------------------------------------- |
+| [Set<T\>(ref T, T, string, params string[])](./method/Set.md)                         | 参照渡しされたストレージに値を設定し、変更を通知します。          |
+| [Set<T\>(Expression<Func<T\>\>, T, string, params string[])](./method/Set.md)         | プロパティセレクターを使用してプロパティーに値を設定し、変更を通知します。 |
+| [CreateExoVideoFilters(int, ExoOutputDescription)](./method/CreateExoVideoFilters.md) | Exoとして出力する際に使用する文字列を生成します。            |
+| [CreateVideoEffect(IGraphicsDevicesAndContext)](./method/CreateVideoEffect.md)        | プロセッサーのインスタンスを生成します。                  |
 
 ## 明示的なインターフェイスの実装
 | 名前                                    | 説明                                     |

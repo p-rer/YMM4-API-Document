@@ -8,7 +8,7 @@
 
 <br/>
 
-合成カテゴリのキーの名前を返します。
+合成カテゴリーのキーの名前を返します。
 
 ```csharp
 public const string Composition = "YMM4Key_EffectCategoryCompositionName";

@@ -8,7 +8,7 @@
 
 <br/>
 
-装飾カテゴリのキーの名前を返します。
+装飾カテゴリーのキーの名前を返します。
 
 ```csharp
 public const string Decoration = "YMM4Key_EffectCategoryDecorationName";

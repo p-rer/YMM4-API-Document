@@ -8,7 +8,7 @@
 
 <br/>
 
-アニメーションカテゴリのキーの名前を返します。
+アニメーションカテゴリーのキーの名前を返します。
 
 ```csharp
 public const string Animation = "YMM4Key_EffectCategoryAnimationName";

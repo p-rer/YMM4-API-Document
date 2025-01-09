@@ -8,7 +8,7 @@
 
 <br/>
 
-登場退場カテゴリのキーの名前を返します。
+登場退場カテゴリーのキーの名前を返します。
 
 ```csharp
 public const string Transition = "YMM4Key_EffectCategoryTransitionName";

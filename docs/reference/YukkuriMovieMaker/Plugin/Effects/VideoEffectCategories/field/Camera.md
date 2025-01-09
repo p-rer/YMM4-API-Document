@@ -8,7 +8,7 @@
 
 <br/>
 
-カメラカテゴリのキーの名前を返します。
+カメラカテゴリーのキーの名前を返します。
 
 ```csharp
 public const string Camera = "YMM4Key_EffectCategoryCameraName";

@@ -8,7 +8,7 @@
 
 <br/>
 
-描画カテゴリのキーの名前を返します。
+描画カテゴリーのキーの名前を返します。
 
 ```csharp
 public const string Drawing = "YMM4Key_EffectCategoryDrawingName";

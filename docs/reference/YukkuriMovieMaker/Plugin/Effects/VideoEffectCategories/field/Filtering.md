@@ -8,7 +8,7 @@
 
 <br/>
 
-加工カテゴリのキーの名前を返します。
+加工カテゴリーのキーの名前を返します。
 
 ```csharp
 public const string Filtering = "YMM4Key_EffectCategoryFilteringName";

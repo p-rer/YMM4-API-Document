@@ -8,7 +8,7 @@
 
 <br/>
 
-Aviutlで使用可能な.exoファイルとして出力する際に必要なExoFilterを生成します。
+AviUtlで使用可能な.exoファイルとして出力する際に必要なExoFilterを生成します。
 
 ```csharp
 public abstract IEnumerable<string> CreateExoVideoFilters(int keyFrameIndex, ExoOutputDescription exoOutputDescription);
@@ -92,12 +92,12 @@ namespace BlurEffect
 
 ## 注釈
 
-exoファイルはAviutlで読み込まれるテキストファイルです。このファイルには、
+exoファイルはAviUtlで読み込まれるテキストファイルです。このファイルには、
 
 - 動画の設定（画面サイズ、フレームレートなど）
 - タイムライン構成
 - 各アイテムのパラメータ
 
-などのデータが含まれています。ここではエフェクトのパラメータのみを出力します。`_name`はAviutl上のエフェクト名、`_disable`はエフェクトの有効状態を表します（有効は1、無効は0）。`_name`で指定したエフェクトのパラメータは、その名前を用いて各行で設定します。
+などのデータが含まれています。ここではエフェクトのパラメータのみを出力します。`_name`はAviUtl上のエフェクト名、`_disable`はエフェクトの有効状態を表します（有効は1、無効は0）。`_name`で指定したエフェクトのパラメータは、その名前を用いて各行で設定します。
 
-なお、このエフェクトがAviutlで代替不能の場合、空のコレクションを返してください。
+なお、このエフェクトがAviUtlで代替不能の場合、空のコレクションを返してください。
