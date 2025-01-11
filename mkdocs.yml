@@ -1,8 +1,14 @@
 site_name: YMM4 API Documentation
+site_url: https://ymm-api.pages.dev/
+repo_url: https://github.com/p-rer/YMM4-API-Document
+repo_name: p-rer/YMM4-API-Document
+edit_uri: edit/master/docs/
+site_description: YMM4のプラグインの作成に必要なアセンブリのドキュメント及び作成の手順を解説するサイトです。
 theme:
   name: material
   language: ja
   icon:
+    repo: fontawesome/brands/git-alt
     logo: material/file-document-multiple
   palette:
     - media: "(prefers-color-scheme)"
@@ -33,18 +39,17 @@ theme:
     - navigation.top
     - navigation.indexes
     - content.code.copy
+    - content.action.edit
 extra:
   consent:
     title: Cookie consent
     description:
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+      このサイトはユーザーエクスペリエンスの向上のため、Cookieを使用しています。
+            あなたがこのサイト内での自分の行動が追跡されることを嫌う場合、Cookieを使用しないことを選択することも可能です。
+            Cookieを使用することに同意しますか？
     actions:
       - accept
       - reject
-  generator: false
 plugins:
   - privacy
   - open-in-new-tab
@@ -52,6 +57,7 @@ plugins:
   - git-revision-date-localized:      
       timezone: Asia/Tokyo
       locale: ja
+      enable_creation_date: true
   - offline
 markdown_extensions:
   - admonition
@@ -63,4 +69,5 @@ markdown_extensions:
       linenums: false
   - pymdownx.superfences
   - toc:
+      toc_depth: 2-3
       permalink: true
