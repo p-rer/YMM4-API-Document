@@ -50,6 +50,9 @@ extra:
     actions:
       - accept
       - reject
+  analytics:
+    provider: google
+    property: G-JEWBD4FF32
 plugins:
   - privacy
   - open-in-new-tab
